@@ -5,6 +5,7 @@ module.exports = {
     'event-sub-process-typed-start-event': 'error',
     'fake-join': 'warn',
     'label-required': 'error',
+    'link-event': 'error',
     'no-bpmndi': 'error',
     'no-complex-gateway': 'error',
     'no-disconnected': 'error',
@@ -19,6 +20,7 @@ module.exports = {
     'single-event-definition': 'error',
     'start-event-required': 'error',
     'sub-process-blank-start-event': 'error',
-    'superfluous-gateway': 'warn'
+    'superfluous-gateway': 'warn',
+    'superfluous-termination': 'warn'
   }
 };

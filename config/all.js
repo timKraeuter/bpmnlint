@@ -4,13 +4,14 @@ const allRules = [
   'event-sub-process-typed-start-event',
   'fake-join',
   'label-required',
+  'link-event',
   'no-bpmndi',
   'no-complex-gateway',
   'no-disconnected',
   'no-duplicate-sequence-flows',
   'no-gateway-join-fork',
-  'no-implicit-split',
   'no-implicit-end',
+  'no-implicit-split',
   'no-implicit-start',
   'no-inclusive-gateway',
   'no-overlapping-elements',
@@ -18,7 +19,8 @@ const allRules = [
   'single-event-definition',
   'start-event-required',
   'sub-process-blank-start-event',
-  'superfluous-gateway'
+  'superfluous-gateway',
+  'superfluous-termination'
 ];
 
 
